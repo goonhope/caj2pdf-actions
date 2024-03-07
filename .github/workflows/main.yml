@@ -2,7 +2,7 @@ name: caj2pdf
 on: push
 jobs:
   ConvertActions:
-    runs-on: windows-latest
+    runs-on: windows
     steps:
     - name: Checkout
       uses: actions/checkout@v2.3.4
