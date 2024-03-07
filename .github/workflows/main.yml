@@ -26,3 +26,4 @@ jobs:
       with:
         name: Output
         path: output.pdf
+        compression-level: 0
